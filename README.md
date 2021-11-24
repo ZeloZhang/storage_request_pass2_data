@@ -11,3 +11,19 @@ We are going to process them through **cascade finallevel filters**, the output 
 /data/ana/analyses/diffuse/cascades/pass2/data/IC*/[burn,blind]/final_[cascade,hybrid,muon]/
 
 We would like to permenantly keep this files.
+
+# pass2 MC dataset
+
+As for pass2 MC dataset, we would also like to request 5 TB to store them permanently. 
+
+We use nugen dataset [21217-21219] as baseline dataset and 
+* numu 218[13-14],21938
+* nutau 218[67,68], 21939
+* nue 218[70,71], 21940
+as systematic dataset.
+
+We will process them to cascade finallevel and the target path will be like:
+/data/ana/analyses/diffuse/cascades/pass2/sim/${datasetid}/*
+
+
+
